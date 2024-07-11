@@ -1,0 +1,310 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  ::-webkit-scrollbar{
+    display: none;
+}
+
+
+main{
+    h2{
+        font-family: "Spicy Rice", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+    .presentacion{
+        h1{
+            text-align: center;
+            color: #fff;
+            span{
+                font-family: "Spicy Rice", serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+        }
+       
+        .banner{
+            
+            background-image: url(../img/img10.jpg);
+            background-size: cover ;
+            background-attachment: fixed;
+            background-position: center;
+            height:100vh;
+            
+            .complet{
+                display: flex;
+                flex-direction: column;
+            .barNav{
+                .navegacion{
+                  display: flex;
+                  height: 90px;
+                  background-color: #6e24247a;
+                  color: #EEEEEE;
+                  justify-content: center;
+                  align-items: center;     
+                  a{
+                      text-decoration: none;
+                      color: #EEEEEE;
+                  }
+                  .logo{
+                      width: 60px;
+                      border-radius: 50%;
+                    }
+                    .list{
+                      display: flex;
+                      justify-content: center;
+                      .items{
+                          display: flex;
+                          flex-wrap: wrap;
+                          gap: 20px;
+                          .item{
+                              text-decoration: none;
+                              color: #EEEEEE;}
+                        }
+                    }
+                  }
+              }
+
+              .welcomeBlock{ 
+                .title{
+                    margin-top: 10rem;
+                    float: right;
+                    margin-right: 10%;
+                    h1{
+                        font-size: 70px;
+                        span{
+                            font-size: 85px;
+                            color: rgba(129, 37, 37, 0.849);
+                        }
+                    }
+                }
+
+                .epigrafe{
+                    background-color: #0000009f;
+                    box-shadow: 2px 2px 2px 1px rgba(238, 255, 2, 0.37);
+                    color: #EEEEEE;
+                    margin-left: 10%;
+                    display: flex;
+                    margin-top: 12rem;
+                    align-items: center;
+                    width: 35rem;
+                    float: left;
+                    text-align: center;
+                    padding: 1rem;
+                    h2{
+                        font-size: 25px;
+                        font-family: 'Times New Roman', Times, serif;
+                    }
+        
+                }
+
+              }
+            
+            }}
+    }
+
+    .containerGif{
+        display: flex;
+        background-color: black;
+        .titleGif{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: white;
+            font-family: "Spicy Rice", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .gif{
+            position: relative;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;     
+        }
+        .gif img{
+            position: absolute;
+    height: 70vh; /* Ajusta este valor para el nivel de zoom deseado */
+    width: auto; /* Asegura que la imagen mantenga su relación de aspecto */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centra la imagen dentro del contenedor */
+        }
+    }
+    
+    .sobreNosotros{
+        h2{
+            padding-top: 10vh;
+            text-align: center;
+            
+        }
+        .containerServ{
+        .servicios{
+            margin-top: 10rem;
+            height: 70vh;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            .serv{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                box-shadow: 10px 5px 5px rgba(27, 26, 26, 0.452);
+                width: 20rem;
+                height: 35rem;
+                border-radius: 10px;
+                background-color: #c59d9d7a;
+                gap: 1rem;
+                padding-top: 0%;
+                img{
+                    margin-top: 0;
+                    width: 100%;
+                    height: auto;
+                    max-height: 20rem;
+                    object-fit: cover;
+                }
+                .serEpi{ 
+                gap: 3rem;
+                text-align: center;
+                padding: 1rem;
+                h3{
+                    padding-top: 2rem;
+                    font-family: "Spicy Rice", serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    text-align: center;
+                }
+                }
+            }
+        }
+
+    }
+    .election{
+        .blockElection{
+            padding-top: 2rem;
+            font-family: "Spicy Rice", serif;
+            font-weight: 400;
+            font-style: normal;
+            text-align: center;
+        }
+    }
+}
+    .contacto{
+        padding-top: 2rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    .contacTitle{
+        height: 10rem;
+        background-color: #0000009f;
+    }
+        .container {
+            width: 50%;
+            margin: auto;
+        }
+        #contact-form {
+            background-color: #6e24247a;
+            padding: 20px;
+            margin-top: 30px;
+            box-shadow: 0px 0px 10px 0px #000;
+        }
+        #contact-form h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        #contact-form label {
+            display: block;
+            margin: 5px 0 10px 0;
+        }
+        #contact-form input[type="text"],
+        #contact-form input[type="email"],
+        #contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 20px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        #contact-form input[type="submit"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #contact-form input[type="submit"]:hover {
+            background: #555;
+        }
+    }
+
+    .whatsapp-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
+    
+    .whatsapp-button a {
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #25d366;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .whatsapp-button img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+    footer {
+        background-color: #6e2424d3;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        bottom: 0;
+        height: 20vh;
+        width: 100%;
+        margin-top: 20px;
+        .content-footer{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            .redes{
+                display: flex;
+                gap: 25px;
+                justify-content: center;
+                .blockIcon{
+                display: flex;
+                color:#fff ;
+                justify-content: center;
+                align-items: center;
+                    .icon{
+                        width: 4vh;
+                    }
+                }
+                .blockIcon:hover{
+                    filter: drop-shadow(4px 4px 4px #000000);
+                }
+            }
+        }
+    }
+    
+
+   
+    
+ 
